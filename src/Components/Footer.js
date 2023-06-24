@@ -25,7 +25,7 @@ const Footer = () => {
   }
 
   const handleGithub = (e) =>{
-    window.open("", '_blank');
+    window.open("https://github.com/ShriramNawathe", '_blank');
   }
 
   const handleLinkedin = () =>{
@@ -36,9 +36,6 @@ const Footer = () => {
     window.open("https://www.facebook.com", '_blank');
   }
   
-  const handleDocs = () =>{
-    window.open("", '_blank');
-  }
 
   const handleInstagram = () =>{
     window.open("https://www.instagram.com", '_blank');
@@ -51,7 +48,7 @@ const Footer = () => {
         <LinkedInIcon style={iconStyle} onClick={handleLinkedin} />
         <FacebookIcon style={iconStyle} onClick={handleFacebook} />
         <InstagramIcon style={iconStyle} onClick={handleInstagram} />
-        <DocumentScannerIcon style={iconStyle} onClick={handleDocs} />
+       
       </div>
       <div className="copyright">
         {/* Copyright &#169;  */}
